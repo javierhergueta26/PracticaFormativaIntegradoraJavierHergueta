@@ -31,7 +31,7 @@ Para auditar la trazabilidad y verificar el efecto avalancha de las funciones re
 | Estado del Dataset | Archivo | Tamaño | Hash SHA-256 |
 | :--- | :--- | :--- | :--- |
 | **Original (En Bruto)** | `telemetria_envios.csv` | ~45 KB | `4471c18a0284b3aa5b32a0713e691e3c7fcadae402f105e901c7c57f49474911` |
-| **Saneado (Limpio)** | `telemetria_limpia.csv` | 36.339 bytes | *Huella única generada en la depuración* |
+| **Saneado (Limpio)** | `telemetria_limpia.csv` | 36.339 bytes | `23fe3d0b4801e8d90fe7bd79004f79c74058fa79c6de0a62d0964ce616f42513` |
 
 ### 1.2 Depuración del Dataset (`saneamiento.py`)
 
