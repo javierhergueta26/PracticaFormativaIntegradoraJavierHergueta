@@ -16,7 +16,7 @@ print(f"SHA-256 Original: {hash_original}")
 df = pd.read_csv("datos/telemetria_envios.csv")
 
 # Eliminar filas duplicadas
-df = df.drop_duplicates
+df = df.drop_duplicates()
 # Eliminar nulos en campos clave
 df = df.dropna(subset=['temp_celsius', 'peso_kg', 'destino'])
 
